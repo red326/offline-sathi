@@ -1,4 +1,4 @@
-# ✍️ AI Writing Assistant — RunAnywhere SDK
+# ✍️ offline sathi Assistant — RunAnywhere SDK
 
 > 100% offline browser AI · RunAnywhere Web SDK · WebGPU/WASM · No API Key · No Backend
 
@@ -7,7 +7,7 @@
 ## 🗂 Project Structure
 
 ```
-ai-writing-assistant/
+offline-sathi/
 ├── index.html              ← Entry HTML
 ├── package.json            ← Dependencies (RunAnywhere SDK)
 ├── vite.config.js          ← Vite config with WASM + COEP headers
@@ -42,7 +42,7 @@ npm run dev
 ### Step 1 — GitHub par nayi repo banao
 
 1. https://github.com/new pe jao
-2. Repository name: `ai-writing-assistant`
+2. Repository name: `offline-sathi`
 3. Public select karo
 4. "Create repository" click karo
 
@@ -53,10 +53,10 @@ npm run dev
 Command Prompt mein project folder pe jao:
 
 ```bash
-cd C:\Users\ronak\ai-writing-assistant
+cd C:\Users\ronak\offline-sathi
 git init
 git add .
-git commit -m "Initial commit — AI Writing Assistant with RunAnywhere SDK"
+git commit -m "Initial commit — offline sathi Assistant with RunAnywhere SDK"
 ```
 
 ---
@@ -64,7 +64,7 @@ git commit -m "Initial commit — AI Writing Assistant with RunAnywhere SDK"
 ### Step 3 — GitHub se connect karo
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/ai-writing-assistant.git
+git remote add origin https://github.com/YOUR_USERNAME/offline-sathi.git
 git branch -M main
 git push -u origin main
 ```
@@ -79,11 +79,11 @@ Hackathon mein alag alag features ke liye branches banao:
 
 ```bash
 # Writer feature branch
-git checkout -b feature/writing-assistant
+git checkout -b feature/offline-sathi-writer
 # ... kaam karo ...
 git add .
 git commit -m "feat: writing assistant with 5 AI actions"
-git push origin feature/writing-assistant
+git push origin feature/offline-sathi-writer
 
 # Chatbot branch
 git checkout -b feature/chatbot
@@ -114,7 +114,7 @@ GitHub website pe:
 Ya terminal se:
 ```bash
 git checkout main
-git merge feature/writing-assistant
+git merge feature/offline-sathi-writer
 git push origin main
 ```
 
@@ -130,7 +130,7 @@ npm run build
 npm install --save-dev gh-pages
 
 # 3. package.json mein add karo:
-# "homepage": "https://YOUR_USERNAME.github.io/ai-writing-assistant",
+# "homepage": "https://YOUR_USERNAME.github.io/offline-sathi",
 # "scripts": {
 #   "deploy": "gh-pages -d dist"
 # }
@@ -139,7 +139,7 @@ npm install --save-dev gh-pages
 npm run deploy
 ```
 
-Live URL: `https://YOUR_USERNAME.github.io/ai-writing-assistant`
+Live URL: `https://YOUR_USERNAME.github.io/offline-sathi`
 
 ---
 
